@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Despliegue - Firebase y Vercel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="slide" id="intro">
+            <h1>Guía de Despliegue Web</h1>
+            <p>Aprende a desplegar tus aplicaciones en diferentes plataformas</p>
+            <div class="scroll-indicator">↓ Desliza para continuar</div>
+        </section>
+
+        <section class="slide" id="firebase">
+            <div class="platform-card">
+                <h2>Firebase Hosting</h2>
+                <div class="animation-container">
+                    <div class="file-transfer-animation firebase animation-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#FFA000" d="M3.89 15.673L6.255.461A.542.542 0 017.27.288L9.813 5.06 3.89 15.673zm16.795 3.691L18.433 5.365a.543.543 0 00-.918-.295l-14.2 14.294 7.857 4.428a1.62 1.62 0 001.587 0l7.926-4.428zM14.3 6.605l-1.64-3.136a.542.542 0 00-.962 0L3.89 15.673 14.3 6.605z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation firebase animation-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#FFA000" d="M3.89 15.673L6.255.461A.542.542 0 017.27.288L9.813 5.06 3.89 15.673zm16.795 3.691L18.433 5.365a.543.543 0 00-.918-.295l-14.2 14.294 7.857 4.428a1.62 1.62 0 001.587 0l7.926-4.428zM14.3 6.605l-1.64-3.136a.542.542 0 00-.962 0L3.89 15.673 14.3 6.605z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation firebase animation-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#FFA000" d="M3.89 15.673L6.255.461A.542.542 0 017.27.288L9.813 5.06 3.89 15.673zm16.795 3.691L18.433 5.365a.543.543 0 00-.918-.295l-14.2 14.294 7.857 4.428a1.62 1.62 0 001.587 0l7.926-4.428zM14.3 6.605l-1.64-3.136a.542.542 0 00-.962 0L3.89 15.673 14.3 6.605z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h3>Pasos para el despliegue:</h3>
+                    <ol>
+                        <li>Instala Firebase CLI: <code>npm install -g firebase-tools</code></li>
+                        <li>Inicia sesión: <code>firebase login</code></li>
+                        <li>Inicializa el proyecto: <code>firebase init</code></li>
+                        <li>Despliega: <code>firebase deploy</code></li>
+
+                    </ol>
+                </div>
+                <div class="advantages">
+                    <h3>Ventajas:</h3>
+                    <ul>
+                        <li>CDN global rápido</li>
+                        <li>SSL automático</li>
+                        <li>Integración con otros servicios de Firebase</li>
+                        <li>Hosting gratuito generoso</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" id="vercel">
+            <div class="platform-card">
+                <h2>Vercel</h2>
+                <div class="animation-container">
+                    <div class="file-transfer-animation vercel animation-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#000000" d="M12 2L2 19.7h20L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation vercel animation-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#000000" d="M12 2L2 19.7h20L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation vercel animation-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#000000" d="M12 2L2 19.7h20L12 2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h3>Pasos para el despliegue:</h3>
+                    <ol>
+                        <li>Instala Vercel CLI: <code>npm install -g vercel</code></li>
+                        <li>Inicia sesión: <code>vercel login</code></li>
+                        <li>Despliega: <code>vercel</code></li>
+                    </ol>
+                </div>
+                <div class="advantages">
+                    <h3>Ventajas:</h3>
+                    <ul>
+                        <li>Despliegue automático con Git</li>
+                        <li>Vista previa por commit</li>
+                        <li>Optimización automática</li>
+                        <li>Serverless Functions</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" id="github-pages">
+            <div class="platform-card">
+                <h2>GitHub Pages</h2>
+                <div class="animation-container">
+                    <div class="file-transfer-animation github animation-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#181717" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation github animation-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#181717" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </div>
+                    <div class="file-transfer-animation github animation-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#181717" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h3>Pasos para el despliegue:</h3>
+                    <ol>
+                        <li>Crea un repositorio: <code>nombre-usuario.github.io</code></li>
+                        <li>Clona el repositorio: <code>git clone https://github.com/usuario/nombre-usuario.github.io</code></li>
+                        <li>Añade tus archivos: <code>git add .</code></li>
+                        <li>Haz commit: <code>git commit -m "Initial commit"</code></li>
+                        <li>Sube los cambios: <code>git push -u origin main</code></li>
+                    </ol>
+                </div>
+                <div class="advantages">
+                    <h3>Ventajas:</h3>
+                    <ul>
+                        <li>Hosting gratuito para proyectos públicos</li>
+                        <li>Integración directa con repositorios Git</li>
+                        <li>Soporte para dominios personalizados</li>
+                        <li>Certificados SSL gratuitos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" id="alternatives">
+            <h2>Otras Plataformas</h2>
+            <div class="platform-grid">
+                <div class="platform-mini-card">
+                    <h3>Netlify</h3>
+                    <ul>
+                        <li>Integración continua</li>
+                        <li>Forms y funciones serverless</li>
+                        <li>Split testing</li>
+                    </ul>
+                </div>
+                <div class="platform-mini-card">
+                    <h3>Amazon Web Services (AWS)</h3>
+                    <ul>
+                        <li>Amplia gama de servicios cloud</li>
+                        <li>Alta escalabilidad y disponibilidad</li>
+                        <li>Servicios de CDN y SSL incluidos</li>
+                    </ul>
+                </div>
+                <div class="platform-mini-card">
+                    <h3>Heroku</h3>
+                    <ul>
+                        <li>Soporte para múltiples lenguajes</li>
+                        <li>Add-ons extensivos</li>
+                        <li>Escalabilidad automática</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
